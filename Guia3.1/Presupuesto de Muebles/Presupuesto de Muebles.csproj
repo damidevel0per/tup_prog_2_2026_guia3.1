@@ -7,7 +7,7 @@
     <ProjectGuid>{C4F8CCE0-676E-414E-8A2E-847F64426A94}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Presupuesto_de_Muebles</RootNamespace>
-    <AssemblyName>Presupuesto_de_Muebles</AssemblyName>
+    <AssemblyName>Presupuesto de Muebles</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,14 +46,45 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DatosProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatosProduct.Designer.cs">
+      <DependentUpon>DatosProduct.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormDatosCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDatosCliente.Designer.cs">
+      <DependentUpon>FormDatosCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Mesa.cs" />
+    <Compile Include="Models\Presupuesto.cs" />
+    <Compile Include="Models\Producto.cs" />
+    <Compile Include="Models\Silla.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VerPresup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerPresup.Designer.cs">
+      <DependentUpon>VerPresup.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="DatosProduct.resx">
+      <DependentUpon>DatosProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDatosCliente.resx">
+      <DependentUpon>FormDatosCliente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,6 +94,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="VerPresup.resx">
+      <DependentUpon>VerPresup.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
