@@ -96,6 +96,7 @@ namespace Presupuesto_de_Muebles
             vp.tbPresup.Text += $"Total: {p.CostoTotal.ToString("0.00")}";
 
             vp.ShowDialog();
+
         }
     }
 }

@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35919.96 d17.13
+VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Muebles", "Muebles\Muebles.csproj", "{0481436B-36F8-4C7E-B925-634E86CB041F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presupuesto de Muebles", "Presupuesto de Muebles\Presupuesto de Muebles.csproj", "{C4F8CCE0-676E-414E-8A2E-847F64426A94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrestadoresMedicos", "PrestadoresMedicos\PrestadoresMedicos.csproj", "{90F0FAC3-3241-407F-9EF8-9D8C653B4122}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C4F8CCE0-676E-414E-8A2E-847F64426A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4F8CCE0-676E-414E-8A2E-847F64426A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4F8CCE0-676E-414E-8A2E-847F64426A94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90F0FAC3-3241-407F-9EF8-9D8C653B4122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90F0FAC3-3241-407F-9EF8-9D8C653B4122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90F0FAC3-3241-407F-9EF8-9D8C653B4122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90F0FAC3-3241-407F-9EF8-9D8C653B4122}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
